@@ -13,8 +13,8 @@
   </head>
 
   <body>
-    <div class="d-flex position-fixed">
-      <header>
+    <div class="d-flex row">
+      <header class="col-3 vh-100">
         <div class="d-flex flex-column justify-content-between bg-light bg-gradient sidebar-overall">
           <div class="flex-column pt-4 mb-4 ">
             <div class="ps-4 mb-4">
@@ -50,145 +50,136 @@
               <img src="./assets/images/andychen.jpeg" alt="">
             </div>
             <ul class="d-flex flex-column user-info ps-3">
-              <li class="fs-5 fw-bold">Andy Chen</li>
-              <li><a href="mailto:andy0401@email.com" type="email" class="link-dark">andy0401@email.com</a></li>
+              <li>Andy Chen</li>
+              <li>
+                <a href="mailto:andy0401@email.com" type="email" class="link-dark">andy0401@email.com</a>
+              </li>
             </ul>
           </div>
         </div>
       </header>
-
-      <main class="container-1">
+      <div class="col-9">
         
-
-<div class="container-1 d-flex flex-row justify-content-between ps-5 pt-5">
-  <div class="d-flex flex-row align-items-cente">
-    <p class="fs-5 fw-bold me-5">Assignment</p>
-    <div class="dropdown">
-      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        All Courses
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href="#">Machine Learning</a></li>
-        <li><a class="dropdown-item" href="#">Database</a></li>
-        <li><a class="dropdown-item" href="#">Discrete Math.</a></li>
-      </ul>
+<div class="d-flex justify-content-between pt-5">
+    <div class="d-flex flex-row">
+        <p class="fs-5 fw-bold me-5">Assignment</p>
+        <div class="dropdown">
+            <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              All Courses
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Machine Learning</a></li>
+              <li><a class="dropdown-item" href="#">Database</a></li>
+              <li><a class="dropdown-item" href="#">Discrete Math.</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
-  <ul class="d-flex">
-    <li>
-      <a href="#" class="d-flex align-items-center text-dark">
-        <span class="material-icons fs-4">search</span>
-      </a>
-    </li>
-    <li class="ms-5">
-      <a href="#" class="d-flex align-items-center text-dark">
-        <span class="material-icons fs-4">notifications_active</span>
-      </a>
-    </li>
-  </ul>
+    <div>
+        <ul class="d-flex">
+            <a href="#" class="text-dark">
+              <span class="material-icons fs-4">search</span>
+            </a>
+          </li>
+          <li class="ms-5">
+            <a href="#" class="text-dark">
+              <span class="material-icons fs-4">notifications_active</span>
+            </a>
+          </li>
+        </ul>
+    </div>
 </div>
-<div class="container-1 second ps-5 d-flex justify-content-between">
-  <div class="d-flex flex-row align-items-cente">
-    <div class="dropdown">
-      <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-        All(4)
-      </button>
-      <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-        <li><a class="dropdown-item" href="#">Today</a></li>
-      </ul>
+<div class="d-flex justify-content-between pt-4">
+    <div class="d-flex flex-row align-items-cente">
+      <div class="dropdown">
+        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+          All(4)
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+          <li><a class="dropdown-item" href="#">Today</a></li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <p class="fs-xs text-gray-600">2 comments</p>
     </div>
   </div>
-  <div>
-    <p class="fs-xs text-gray-600">2 comments</p>
-  </div>
-</div>
-<div class="container-1 main-area ps-5 d-flex justify-content-between">
-  <div class="card-group flex-column">
-    <div class="card flex-row">
-      <div class="card-body">
-        <p class="card-title">Chapter Assignment 2</p>
-        <h5 class="card-text">Please check this file…</h5>
-      </div>
-      <div class="d-flex flex-column align-items-end pt-3 pe-3">
-        <p class="card-title">4 hrs ago</p>
-        <p class="card-title fw-lighter">Emily Wang</p>
-      </div>
-    </div>
-    <div class="card flex-row">
-      <div class="card-body">
-        <p class="card-title">Chapter Assignment 2</p>
-        <h5 class="card-text">Please check this file…</h5>
-      </div>
-      <div class="d-flex flex-column align-items-end pt-3 pe-3">
-        <p class="card-title">4 hrs ago</p>
-        <p class="card-title fw-lighter">Emily Wang</p>
-      </div>
-    </div>
-    <div class="card flex-row">
-      <div class="card-body">
-        <p class="card-title">Chapter Assignment 2</p>
-        <h5 class="card-text">Please check this file…</h5>
-      </div>
-      <div class="d-flex flex-column align-items-end pt-3 pe-3">
-        <p class="card-title">4 hrs ago</p>
-        <p class="card-title fw-lighter">Emily Wang</p>
-      </div>
-    </div>
-    <div class="card flex-row">
-      <div class="card-body">
-        <p class="card-title">Chapter Assignment 2</p>
-        <h5 class="card-text">Please check this file…</h5>
-      </div>
-      <div class="d-flex flex-column align-items-end pt-3 pe-3">
-        <p class="card-title">4 hrs ago</p>
-        <p class="card-title fw-lighter">Emily Wang</p>
-      </div>
-    </div>
-  </div>
-  <div class="info-area w-65">
-    <div class="card-style">
-      <div class="card-header d-flex justify-content-between">
-        <div>
-          <p class="mb-0">Chapter Assignment 2 / HTML&CSS</p>
-          <h5>Please check this file for me, thanks!</h5>
+<div class="info-block row">
+    <div class="task-list col-5">
+        <div class="task-card border">
+            <div class="d-flex justify-content-between">
+                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
+                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
+                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
+            </div>
         </div>
-        <a href="#" class="d-flex align-items-center text-dark">
-          <span class="material-icons fs-4">more_vert</span>
-        </a>
-      </div>
-      <div class="card-main-area">
-        <div class="inner-title d-flex">
-          <img class="me-2" src="./assets/images/andychen.jpeg" alt="">
-          <div>
-            <p class="mb-0 fw-bold">Emily Wang</p>
-            <p class="fw-lighter">10:38 AM (4 hours ago)</p>
-          </div>
+        <div class="task-card border">
+            <div class="d-flex justify-content-between">
+                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
+                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
+                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
+            </div>
         </div>
-        <div>
-          <p>Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+        <div class="task-card border">
+            <div class="d-flex justify-content-between">
+                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
+                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
+                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
+            </div>
         </div>
-        <button type="button" class="btn btn-light"><span class="material-icons">
-          attach_file
-          </span>HW-2-David.zip</button>
-
-      </div>
-      <div class="card-main-area">
-        <div class="inner-title d-flex">
-          <img class="me-2" src="./assets/images/andychen.jpeg" alt="">
-          <div>
-            <p class="mb-0 fw-bold">Andy Chen (You)</p>
-            <p class="fw-lighter">13:24 AM (1 hours ago)</p>
-          </div>
+        <div class="task-card border">
+            <div class="d-flex justify-content-between">
+                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
+                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
+                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
+            </div>
         </div>
-        <div>
-          <p>Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: 　• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　• change the display so it isn’t inline.</p>
-        </div>
-      </div>
     </div>
-  </div>
+    <div class="msg-board col-7 border">
+        <div class="d-flex justify-content-between align-items-center border-bottom mb-2">
+            <div>
+                <p class="mb-0 pt-2">Chapter Assignment 2 / HTML&CSS</p>
+                <p class="mb-0 pb-2 fw-bolder">Please check this file for me, thanks!</p>
+            </div>
+            <div>
+                <a href="#" class="text-dark">
+                    <span class="material-icons fs-4">more_vert</span>
+                </a>
+            </div>
+        </div>
+        <div class="msg-card d-flex">
+            <img class="me-1" src="./assets/images/andychen.jpeg" alt="">
+            <div class="border-bottom">
+                <p class="fw-bolder mb-0">Emily Wang</p>
+                <p class="fw-lighter">10:38 AM (4 hours ago)</p>
+                <p class="pe-4">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
+                <button type="button" class="btn btn-light mb-3"><span class="material-icons me-2">attach_file</span>HW-2-David.zip</button>
+            </div>
+        </div>
+        <div class="msg-card d-flex">
+            <img class="me-1" src="./assets/images/andychen.jpeg" alt="">
+            <div class="border-bottom">
+                <p class="fw-bolder mb-0">Andy Chen (You)</p>
+                <p class="fw-lighter">13:24 AM (1 hours ago)</p>
+                <p class="pe-4">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: 　• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　• change the display so it isn’t inline.</p>
+            </div>
+        </div>
+    </div>
 </div>
 
-      </main> 
+
+      </div> 
 
     </div>
 
