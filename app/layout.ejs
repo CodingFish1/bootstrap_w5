@@ -13,9 +13,9 @@
   </head>
 
   <body>
-    <div class="d-flex position-fixed">
-      <header>
-        <div class="d-flex flex-column justify-content-between bg-light bg-gradient sidebar-overall">
+    <div class="d-flex row">
+      <header class="col-3">
+        <div class="d-flex flex-column justify-content-between vh-100 bg-light bg-gradient">
           <div class="flex-column pt-4 mb-4 ">
             <div class="ps-4 mb-4">
               <img src="./assets/images/logo-ANSWER.svg" alt="">
@@ -50,17 +50,17 @@
               <img src="./assets/images/andychen.jpeg" alt="">
             </div>
             <ul class="d-flex flex-column user-info ps-3">
-              <li class="fs-5 fw-bold">Andy Chen</li>
-              <li><a href="mailto:andy0401@email.com" type="email" class="link-dark">andy0401@email.com</a></li>
+              <li>Andy Chen</li>
+              <li>
+                <a href="mailto:andy0401@email.com" type="email" class="link-dark">andy0401@email.com</a>
+              </li>
             </ul>
           </div>
         </div>
       </header>
-
-      <main class="container-1">
+      <main class="col-9">
         <%- contents %>
       </main> 
-
     </div>
 
     <script src="./assets/js/vendors.js"></script>

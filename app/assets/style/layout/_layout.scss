@@ -1,7 +1,4 @@
-.sidebar-overall{
-    height: 100vh;
-    width: 296px;
-
+header{
     span{
         vertical-align: bottom;
     }
@@ -10,12 +7,22 @@
 .user{
     img{
         width: 40px;
+        height: 40px;
         border-radius: 50%;
+        object-fit:cover;
     }
 
-    .user-info :nth-child(2){
+    .user-info :nth-child(1){
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: 900;
+        color: black
+    }
+
+    .user-info :nth-child(2) a{
         font-size: 14px;
         line-height: 24px;
+        font-weight: normal;
         color: #6C757D;
     }
 }
