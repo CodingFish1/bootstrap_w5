@@ -14,8 +14,8 @@
 
   <body>
     <div class="d-flex row">
-      <header class="col-3 vh-100">
-        <div class="d-flex flex-column justify-content-between bg-light bg-gradient sidebar-overall">
+      <header class="col-3">
+        <div class="d-flex flex-column justify-content-between vh-100 bg-light bg-gradient">
           <div class="flex-column pt-4 mb-4 ">
             <div class="ps-4 mb-4">
               <img src="./assets/images/logo-ANSWER.svg" alt="">
@@ -58,7 +58,7 @@
           </div>
         </div>
       </header>
-      <div class="col-9">
+      <main class="col-9">
         
 <div class="d-flex justify-content-between pt-5">
     <div class="d-flex flex-row">
@@ -104,7 +104,7 @@
     </div>
   </div>
 <div class="info-block row">
-    <div class="task-list col-5">
+    <div class="task-list col-4">
         <div class="task-card border">
             <div class="d-flex justify-content-between">
                 <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
@@ -117,38 +117,38 @@
         </div>
         <div class="task-card border">
             <div class="d-flex justify-content-between">
-                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
-                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
+                <p class="mb-0 mt-2 ms-2">Chapter Assignment 1</p>
+                <p class="mb-0 mt-2 fw-normal me-2">12 hrs ago</p>
             </div>
             <div class="d-flex justify-content-between">
-                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
-                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
-            </div>
-        </div>
-        <div class="task-card border">
-            <div class="d-flex justify-content-between">
-                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
-                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
-            </div>
-            <div class="d-flex justify-content-between">
-                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
-                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
+                <p class="fw-bolder mb-2 ms-2">My Homework</p>
+                <p class="fw-lighter mb-2 me-2">David Xu</p>
             </div>
         </div>
         <div class="task-card border">
             <div class="d-flex justify-content-between">
-                <p class="mb-0 mt-2 ms-2">Chapter Assignment 2</p>
-                <p class="mb-0 mt-2 fw-normal me-2">4 hrs ago</p>
+                <p class="mb-0 mt-2 ms-2">Final Assignment</p>
+                <p class="mb-0 mt-2 fw-normal me-2">18 hrs ago</p>
             </div>
             <div class="d-flex justify-content-between">
-                <p class="fw-bolder mb-2 ms-2">Please check this file…</p>
-                <p class="fw-lighter mb-2 me-2">Emily Wang</p>
+                <p class="fw-bolder mb-2 ms-2">Have a problem with this…</p>
+                <p class="fw-lighter mb-2 me-2">Tony Wei</p>
+            </div>
+        </div>
+        <div class="task-card border">
+            <div class="d-flex justify-content-between">
+                <p class="mb-0 mt-2 ms-2">Final Assignment</p>
+                <p class="mb-0 mt-2 fw-normal me-2">19 hrs ago</p>
+            </div>
+            <div class="d-flex justify-content-between">
+                <p class="fw-bolder mb-2 ms-2">Did I do it right?</p>
+                <p class="fw-lighter mb-2 me-2">Christina Lin</p>
             </div>
         </div>
     </div>
-    <div class="msg-board col-7 border">
+    <div class="msg-board col-8 border px-0">
         <div class="d-flex justify-content-between align-items-center border-bottom mb-2">
-            <div>
+            <div class="ps-2">
                 <p class="mb-0 pt-2">Chapter Assignment 2 / HTML&CSS</p>
                 <p class="mb-0 pb-2 fw-bolder">Please check this file for me, thanks!</p>
             </div>
@@ -158,29 +158,39 @@
                 </a>
             </div>
         </div>
-        <div class="msg-card d-flex">
-            <img class="me-1" src="./assets/images/andychen.jpeg" alt="">
+        <div class="msg-card d-flex ps-2">
+            <img class="me-1" src="./assets/images/emilywang.jpeg" alt="">
             <div class="border-bottom">
                 <p class="fw-bolder mb-0">Emily Wang</p>
                 <p class="fw-lighter">10:38 AM (4 hours ago)</p>
                 <p class="pe-4">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question: Why in the following code the height of the div is bigger than the height of the img ? There is a gap below the image, but it doesn’t seems to be a padding/margin. What is the gap or extra space below image?</p>
-                <button type="button" class="btn btn-light mb-3"><span class="material-icons me-2">attach_file</span>HW-2-David.zip</button>
+                <button type="button" class="btn btn-light mb-3 align-items-center"><span class="material-icons align-items-center me-2">attach_file</span>HW-2-David.zip</button>
             </div>
         </div>
-        <div class="msg-card d-flex">
+        <div class="msg-card d-flex mt-3 ps-2">
             <img class="me-1" src="./assets/images/andychen.jpeg" alt="">
-            <div class="border-bottom">
+            <div>
                 <p class="fw-bolder mb-0">Andy Chen (You)</p>
                 <p class="fw-lighter">13:24 AM (1 hours ago)</p>
                 <p class="pe-4">Hi David, by default, an image is rendered inline, like a letter so it sits on the same line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like g, j, p and q. You can: 　• adjust the vertical-align of the image to position it elsewhere (e.g. the middle ) or 　• change the display so it isn’t inline.</p>
             </div>
         </div>
     </div>
+    <div class="d-flex justify-content-between align-items-center">
+        <div>
+            <a class="link-dark me-4" href="#"><span class="material-icons">arrow_back_ios</span></a>
+            <a class="link-dark" href="#"><span class="material-icons">arrow_forward_ios</span></a>
+        </div>
+        <div>
+            <button type="button" class="btn btn-outline-success px-4 me-3">Mark as read</button>
+            <button type="button" class="btn btn-success px-4">Reply</button>
+        </div>
+    </div>
+</div>
 </div>
 
 
-      </div> 
-
+      </main> 
     </div>
 
     <script src="./assets/js/vendors.js"></script>
