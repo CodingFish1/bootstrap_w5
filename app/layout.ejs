@@ -13,8 +13,8 @@
   </head>
 
   <body>
-    <div class="d-flex row">
-      <header class="col-3">
+    <div class="d-flex">
+      <header class="position-fixed">
         <div class="d-flex flex-column justify-content-between vh-100 bg-light bg-gradient">
           <div class="flex-column pt-4 mb-4 ">
             <div class="ps-4 mb-4">
@@ -58,10 +58,13 @@
           </div>
         </div>
       </header>
-      <main class="col-9">
+      <div class="supporter">
+      </div>
+      <main class="container pe-4">
         <%- contents %>
       </main> 
     </div>
+
 
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
